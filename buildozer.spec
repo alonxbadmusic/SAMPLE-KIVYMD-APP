@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = SampleApp
+title = lastwarning
 
 # (str) Package name
-package.name = nfsApk
+package.name = LwApk
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.novfensec
@@ -16,7 +16,7 @@ source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
 
 # (list) List of inclusions using pattern matching
-source.include_patterns = images/*.png
+#source.include_patterns = images/*.png
 
 # (list) Source files to exclude (let empty to not exclude anything)
 #source.exclude_exts = spec
@@ -44,7 +44,7 @@ requirements = python3,kivy==2.3.0,kivymd==1.1.1,pillow==10.3.0
 # requirements.source.kivy = ../../kivy
 
 # (str) Presplash of the application
-presplash.filename = %(source.dir)s/images/presplash.png
+#presplash.filename = %(source.dir)s/images/presplash.png
 
 # (str) Icon of the application
 icon.filename = %(source.dir)s/images/favicon.png
